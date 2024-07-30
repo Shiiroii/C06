@@ -29,10 +29,10 @@ int	main(int argc, char **argv)
 {
 	int	i;
 
-	i = 0;
+	i = 1;
 	while (i <= argc - 1)
 	{
-		print_param(argv[i]);
+		print_params(argv[i]);
 		i++;
 	}
 	return (0);
